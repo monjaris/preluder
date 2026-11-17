@@ -30,7 +30,7 @@
 
 
 
-namespace bit_types
+namespace prelude::bit_types
 {
 
 PRELUDER_GEN_SIGNED_INTEGER_BIT_TYPE(int8, 8);

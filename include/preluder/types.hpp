@@ -2,8 +2,8 @@
 #include "detail/config.hpp"
 
 
-namespace types
-{
+namespace prelude::types {
+
 
 using usize  = __SIZE_TYPE__;
 using isize  = __PTRDIFF_TYPE__;
@@ -46,5 +46,6 @@ static_assert(sizeof(real32) == 4, "real32 must be 4 bytes");
 static_assert(sizeof(int64) == 8, "int64 must be 8 bytes");
 static_assert(sizeof(uint64) == 8, "uint64 must be 8 bytes");
 static_assert(sizeof(real64) == 8, "real64 must be 8 bytes");
+
 
 }

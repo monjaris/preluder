@@ -1,5 +1,7 @@
 #include <print>
-#include "preluder/preluder.hpp"
+#include "preluder/prelude.hpp"
+
+using namespace prelude;
 
 int main()
 {

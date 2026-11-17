@@ -1,0 +1,13 @@
+{
+    cmdlines = {
+        "xmake run -j16 -v types",
+        "xmake config -y",
+        "xmake run -j16 -v types",
+        "xmake config -y",
+        "xmake run -j16 -v types",
+        "xmake config -y",
+        "xmake run -j16 -v types",
+        "xmake config -y",
+        "xmake run -j16 -v types"
+    }
+}

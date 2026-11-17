@@ -1,0 +1,15 @@
+---
+If:
+  PathMatch: .*bit_types\.hpp$
+
+CompileFlags:
+  Remove: [-std=*]
+  Add: [-std=gnu++23]
+
+---
+If:
+  PathMatch: .*concepts\.hpp$
+
+CompileFlags:
+  Remove: [-std=*]
+  Add: [-std=c++20]

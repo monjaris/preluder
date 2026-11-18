@@ -1,7 +1,5 @@
 #pragma once
 #include "detail/config.hpp"
-
-
 namespace prelude::types {
 
 

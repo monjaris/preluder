@@ -2,9 +2,9 @@
 .DS_Store
 
 # Build System
-/tests/.cache/
-/tests/.xmake/
-/tests/build/
+/.cache/
+/.xmake/
+/build/
 
 # Binaries
 /*.so
